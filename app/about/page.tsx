@@ -11,34 +11,35 @@ export default function AboutPage() {
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
 
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey, I'm André. Most of my friends know me as <b>Del</b> online.
+        Hey, I&apos;m André. Most of my friends know me as <b>Del</b> online.
       </p>
 
       <div>
         <p>
-          I'm currently the <b>Technical Lead at Umatch</b>, where I lead our
-          mobile and web development teams. I focus on{' '}
+          I&apos;m currently the <b>Technical Lead at Umatch</b>, where I lead
+          our mobile and web development teams. I focus on{' '}
           <b>developing and innovating</b> the product and the tech stack.
         </p>
 
         <br />
 
         <p>
-          I'm passionate about many creative pursuits, including bouldering,
-          learning languages (German, Italian, etc), videogames (LoL), and of
-          course, coding. This combination of interests is what ultimately led
-          me to my current role in building developer communities.
+          I&apos;m passionate about many creative pursuits, including
+          bouldering, learning languages (German, Italian, etc), videogames
+          (LoL), and of course, coding. This combination of interests is what
+          ultimately led me to my current role in building developer
+          communities.
         </p>
 
         <br />
 
         <p className="mb-8">
           I <b>love</b> building for the end user. From something as simple as a
-          single HTML file – all the way to large and complex multi-layered
+          single HTML file - all the way to large and complex multi-layered
           applications. Web and mobile development are incredible. At the same
-          time that it's a very complex and challenging field, it's also very
-          rewarding when we get to see the results of our work affecting
-          people's lives.
+          time that it&apos;s a very complex and challenging field, it&apos;s
+          also very rewarding when we get to see the results of our work
+          affecting people&apos;s lives.
         </p>
 
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
