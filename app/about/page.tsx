@@ -1,0 +1,73 @@
+import { ArrowIcon, GitHubIcon, LinkedInIcon } from '../components/icons';
+
+export const metadata = {
+  title: 'About',
+  description: 'Technical Lead at Umatch.',
+};
+
+export default function AboutPage() {
+  return (
+    <section>
+      <h1 className="font-bold text-3xl font-serif">About Me</h1>
+
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        Hey, I'm André. Most of my friends know me as <b>Del</b> online.
+      </p>
+
+      <div>
+        <p>
+          I'm currently the <b>Technical Lead at Umatch</b>, where I lead our
+          mobile and web development teams. I focus on{' '}
+          <b>developing and innovating</b> the product and the tech stack.
+        </p>
+
+        <br />
+
+        <p>
+          I'm passionate about many creative pursuits, including bouldering,
+          learning languages (German, Italian, etc), videogames (LoL), and of
+          course, coding. This combination of interests is what ultimately led
+          me to my current role in building developer communities.
+        </p>
+
+        <br />
+
+        <p className="mb-8">
+          I <b>love</b> building for the end user. From something as simple as a
+          single HTML file – all the way to large and complex multi-layered
+          applications. Web and mobile development are incredible. At the same
+          time that it's a very complex and challenging field, it's also very
+          rewarding when we get to see the results of our work affecting
+          people's lives.
+        </p>
+
+        <div className="flex flex-col gap-2 md:flex-row md:gap-2">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/andrelfnavarro"
+            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+          >
+            <div className="flex items-center">
+              <GitHubIcon />
+              <div className="ml-3">GitHub</div>
+            </div>
+            <ArrowIcon />
+          </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/andrelfnavarro"
+            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+          >
+            <div className="flex items-center">
+              <LinkedInIcon />
+              <div className="ml-3">LinkedIn</div>
+            </div>
+            <ArrowIcon />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
