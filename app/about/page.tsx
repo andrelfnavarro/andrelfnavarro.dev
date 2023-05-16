@@ -27,7 +27,7 @@ export default function AboutPage() {
           I&apos;m passionate about many creative pursuits, including
           bouldering, learning languages (German, Italian, etc), videogames
           (LoL), and of course, coding. This combination of interests is what
-          ultimately led me to my current role in building a new of for people to meet. 
+          ultimately led me to my current role in building a new way for people to meet. 
         </p>
 
         <br />
