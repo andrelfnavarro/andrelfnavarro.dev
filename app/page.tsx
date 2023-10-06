@@ -35,7 +35,7 @@ export default async function HomePage() {
             className="flex items-center gap-2"
           >
             <ViewsIcon />
-            +250k college students have used what I built
+            +500k college students have used what I built
           </a>
 
           <a
