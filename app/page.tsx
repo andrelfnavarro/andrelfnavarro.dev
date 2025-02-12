@@ -1,11 +1,5 @@
-import Link from 'next/link';
 import Image from 'next/image';
-import {
-  TwitterIcon,
-  ViewsIcon,
-  GitHubIcon,
-  LinkedInIcon,
-} from './components/icons';
+import { ViewsIcon, GitHubIcon, LinkedInIcon } from './components/icons';
 import { name, about, bio, avatar } from '@/lib/info';
 
 export const revalidate = 60;
@@ -35,7 +29,7 @@ export default async function HomePage() {
             className="flex items-center gap-2"
           >
             <ViewsIcon />
-            +500k college students have used what I built
+            +1M college students have used what I built
           </a>
 
           <a

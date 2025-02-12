@@ -2,7 +2,7 @@ import { ArrowIcon, GitHubIcon, LinkedInIcon } from '../components/icons';
 
 export const metadata = {
   title: 'About',
-  description: 'Technical Lead at Umatch.',
+  description: 'Software Development Engineer II at Amazon.',
 };
 
 export default function AboutPage() {
@@ -16,9 +16,16 @@ export default function AboutPage() {
 
       <div>
         <p>
-          I&apos;m currently the <b>Technical Lead at Umatch</b>, where I lead
-          our mobile and web development teams. I focus on{' '}
-          <b>developing and innovating</b> the product and the tech stack.
+          I&apos;m currently a <b>Software Development Engineer II at Amazon</b>
+          , where I focus on developing and innovating our tech stack.
+        </p>
+
+        <br />
+
+        <p>
+          Previously, I worked at <b>TikTok</b> as a Solutions Engineer and
+          spent close to 4 years at <b>Umatch</b> as a Technical Lead, leading
+          our mobile and web development teams.
         </p>
 
         <br />
@@ -27,7 +34,8 @@ export default function AboutPage() {
           I&apos;m passionate about many creative pursuits, including
           bouldering, learning languages (German, Italian, etc), videogames
           (LoL), and of course, coding. This combination of interests is what
-          ultimately led me to my current role in building a new way for people to meet. 
+          ultimately led me to my current role in building a new way for people
+          to meet.
         </p>
 
         <br />
