@@ -1,7 +1,7 @@
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
 import clsx from 'clsx';
-
 import Navbar from './components/navbar';
 
 export const metadata = {
@@ -32,6 +32,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0">
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
