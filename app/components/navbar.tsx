@@ -3,7 +3,7 @@
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
-import deafLetterA from '@/public/deaf-letter-a.svg';
+import manualAlphabetLetterA from '@/public/manual-alphabet-letter-a.svg';
 import Image from 'next/image';
 import clsx from 'clsx';
 
@@ -18,11 +18,11 @@ const navItems = {
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
+    <Link aria-label="André Navarro" href="/">
       <Image
-        src={deafLetterA}
+        src={manualAlphabetLetterA}
         alt="Letter A"
-        title="Deaf Alphabet - Letter A"
+        title="Letter A"
       />
     </Link>
   );
